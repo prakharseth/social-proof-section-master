@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Big+Shoulders+Display:wght@700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Spartan:wght@400;500;700&display=swap');
+body {
+    font-family: Spartan;
+}
+
+body {
+    @apply mx-2 mt-16
+}
+
+.head-title {
+    color: hsl(300, 43%, 22%);
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bold;
+    @apply pb-5
+}
+
+.head-para {
+    text-align: center;
+    @apply text-[#937b92] text-sm px-3
+}
+
+.rating {
+    @apply space-y-2 py-10
+}
+
+.rate {
+    @apply bg-[#f7f2f7] p-4 rounded-lg flex flex-col items-center gap-3 font-semibold
+}
+
+.rate-img {
+    @apply flex gap-2
+}
+
+.customer {
+    @apply space-y-4 bg-[#502050] p-6 rounded-xl text-[#f7f2f7] font-medium
+}
+
+.author {
+    @apply flex gap-3 items-center
+}
+
+.author-img {
+    @apply flex rounded-full scale-[.65]
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
