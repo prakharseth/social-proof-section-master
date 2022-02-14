@@ -468,18 +468,76 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.-left-\[30rem\] {
+  left: -30rem;
+}
+
+.-top-40 {
+  top: -10rem;
+}
+
+.-bottom-40 {
+  bottom: -10rem;
+}
+
+.-left-\[1rem\] {
+  left: -1rem;
+}
+
+.-bottom-60 {
+  bottom: -15rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.w-full {
+  width: 100%;
+}
+
 .space-y-5 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
 }
 
+.p-4 {
+  padding: 1rem;
+}
+
 .p-10 {
   padding: 2.5rem;
 }
 
+.px-\[1\.2rem\] {
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+}
+
+.pt-16 {
+  padding-top: 4rem;
+}
+
 .pl-4 {
   padding-left: 1rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .text-sm {
@@ -517,9 +575,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 body {
   font-family: Spartan;
-  margin-left: 1.2rem;
-  margin-right: 1.2rem;
-  margin-top: 4rem;
 }
 
 .head-title {
@@ -637,6 +692,10 @@ body {
     display: flex;
   }
 
+  .md\:hidden {
+    display: none;
+  }
+
   .md\:w-\[30rem\] {
     width: 30rem;
   }
@@ -673,6 +732,10 @@ body {
 
   .md\:p-20 {
     padding: 5rem;
+  }
+
+  .md\:p-0 {
+    padding: 0px;
   }
 
   .md\:py-0 {
