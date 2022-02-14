@@ -6,10 +6,6 @@
             font-family: Spartan;
         }
         
-        body {
-            @apply mx-[1.2rem] mt-16
-        }
-        
         .head-title {
             color: hsl(300, 43%, 22%);
             text-align: center;
